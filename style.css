@@ -1,0 +1,33 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: lightgray;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div {
+    width: 90%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px lightgray;
+    padding: 30px;
+}
